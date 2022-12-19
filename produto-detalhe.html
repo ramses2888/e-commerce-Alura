@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produto Descrição</title>
+    <link rel="stylesheet" href="./Assets/css/reset.css" />
+    <link rel="stylesheet" href="./Assets/css/produto-detalhe.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="cabecalho__container">
+      <a href="index.html" aria-label="link para a página inicial">
+        <img
+          src="./Assets/images/logo.png"
+          alt="Logo da Alura Geek"
+          class="cabecalho__logo"
+        />
+      </a>
+      <input
+        class="cabecalho__pesquisa"
+        placeholder="O que deseja encontrar?"
+      />
+      <img
+        src="./Assets/images/search.png"
+        alt="Botão de pesquisa"
+        class="cabecalho__lupa"
+      />
+    </header>
+
+    <main>
+      <!-- Banner -->
+      <section class="banner">
+        <div class="banner__imagem"></div>
+        <div class="banner__conteudo">
+          <h1 class="banner__titulo">Produto XYZ</h1>
+          <p class="banner__preco">R$ 60,00</p>
+          <p class="banner__descricao">
+            Voluptas voluptatum quibusdam similique, class debitis alias
+            maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis,
+            minima malesuada habitasse distinctio sequi aliqua malesuada.
+            Quisque deleniti proin expedita, aliquid litora. Iste recusandae?
+            Commodo, quia ridiculus doloribus vero dictum? Penatibus donec
+            placeat faucibus, dolorum do. Animi porta anim magnam
+          </p>
+        </div>
+      </section>
+
+      <section class="produtos">
+        <div class="produtos__titulo">
+          <h1>Produtos similares</h1>
+        </div>
+        <div class="produtos__items">
+          <div class="item__caixa">
+            <img
+              src="./Assets/images/games/xbox-controller.png"
+              alt="Foto do produto XYZ"
+              class="item__imagem"
+            />
+            <p class="item__nome">Produto XYZ</p>
+            <p class="item__preco">R$ 60,00</p>
+            <a href="#" class="item__link">Ver produto</a>
+          </div>
+
+          <div class="item__caixa">
+            <img
+              src="./Assets/images/star-wars/lego.png"
+              alt="Foto do produto XYZ"
+              class="item__imagem"
+            />
+            <p class="item__nome">Produto XYZ</p>
+            <p class="item__preco">R$ 60,00</p>
+            <a href="#" class="item__link">Ver produto</a>
+          </div>
+
+          <div class="item__caixa">
+            <img
+              src="./Assets/images/star-wars/yoda.png"
+              alt="Foto do produto XYZ"
+              class="item__imagem"
+            />
+            <p class="item__nome">Produto XYZ</p>
+            <p class="item__preco">R$ 60,00</p>
+            <a href="#" class="item__link">Ver produto</a>
+          </div>
+
+          <div class="item__caixa">
+            <img
+              src="./Assets/images/star-wars/stormtrooper.png"
+              alt="Foto do produto XYZ"
+              class="item__imagem"
+            />
+            <p class="item__nome">Produto XYZ</p>
+            <p class="item__preco">R$ 60,00</p>
+            <a href="#" class="item__link">Ver produto</a>
+          </div>
+
+          <div class="item__caixa item__caixa-ocultar">
+            <img
+              src="./Assets/images/star-wars/baby-yoda.png"
+              alt="Foto do produto XYZ"
+              class="item__imagem"
+            />
+            <p class="item__nome">Produto XYZ</p>
+            <p class="item__preco">R$ 60,00</p>
+            <a href="#" class="item__link">Ver produto</a>
+          </div>
+
+          <div class="item__caixa item__caixa-ocultar">
+            <img
+              src="./Assets/images/star-wars/kylo-ren.png"
+              alt="Foto do produto XYZ"
+              class="item__imagem"
+            />
+            <p class="item__nome">Produto XYZ</p>
+            <p class="item__preco">R$ 60,00</p>
+            <a href="#" class="item__link">Ver produto</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="rodape__container">
+      <img
+        src="./Assets/images/logo.png"
+        alt="Logo da Alura Geek"
+        class="rodape__logo"
+      />
+      <ul class="rodape__lista">
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Quem somos nós</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Política de privacidade</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Programa de fidelidade</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Nossas lojas</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Quero ser franqueado</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Anuncie aqui</a>
+        </li>
+      </ul>
+
+      <!-- Contato -->
+      <section class="contato">
+        <h2 class="contato__titulo">Fale Conosco</h2>
+        <input type="text" class="contato__nome" placeholder="Nome" />
+        <textarea
+          name="message"
+          id="message"
+          class="contato__mensagem"
+          placeholder="Escreva sua mensagem"
+        ></textarea>
+        <button class="contato__botao botao-primario">Enviar mensagem</button>
+      </section>
+    </footer>
+
+    <!-- Copyright -->
+    <section class="copyright">
+      <p>
+        <a href="https://github.com/devhiderlan" target="_blank"
+          >Desenvolvido por Hiderlan Santana
+        </a>
+      </p>
+      <p class="ano">©2022</p>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./Assets/css/reset.css" />
+    <link rel="stylesheet" href="./Assets/css/login.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="cabecalho__container">
+      <a href="index.html" aria-label="link para a página inicial">
+        <img
+          src="./Assets/images/logo.png"
+          alt="Logo da Alura Geek"
+          class="cabecalho__logo"
+        />
+      </a>
+      <input
+        class="cabecalho__pesquisa"
+        placeholder="O que deseja encontrar?"
+      />
+      <img
+        src="./Assets/images/search.png"
+        alt="Botão de pesquisa"
+        class="cabecalho__lupa"
+      />
+    </header>
+
+    <main>
+      <section class="login">
+        <h2 class="login__titulo">Iniciar Sessão</h2>
+        <input
+          type="email"
+          class="login__email login__input"
+          placeholder="Escreva seu email"
+        />
+        <input
+          type="password"
+          class="login__senha login__input"
+          placeholder="Escreva sua senha"
+        />
+        <button type="button" class="botao-primario login__btn">Entrar</button>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="rodape__container">
+      <img
+        src="./Assets/images/logo.png"
+        alt="Logo da Alura Geek"
+        class="rodape__logo"
+      />
+      <ul class="rodape__lista">
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Quem somos nós</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Política de privacidade</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Programa de fidelidade</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Nossas lojas</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Quero ser franqueado</a>
+        </li>
+        <li class="rodape__item">
+          <a href="#" class="rodape__link">Anuncie aqui</a>
+        </li>
+      </ul>
+
+      <!-- Contato -->
+      <section class="contato">
+        <h2 class="contato__titulo">Fale Conosco</h2>
+        <input type="text" class="contato__nome" placeholder="Nome" />
+        <textarea
+          name="message"
+          id="message"
+          class="contato__mensagem"
+          placeholder="Escreva sua mensagem"
+        ></textarea>
+        <button class="contato__botao botao-primario">Enviar mensagem</button>
+      </section>
+    </footer>
+
+    <!-- Copyright -->
+    <section class="copyright">
+      <p>
+        <a href="https://github.com/devhiderlan" target="_blank"
+          >Desenvolvido por Hiderlan Santana
+        </a>
+      </p>
+      <p class="ano">©2022</p>
+    </section>
+  </body>
+</html>
